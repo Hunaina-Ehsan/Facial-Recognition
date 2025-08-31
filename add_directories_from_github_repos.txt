@@ -1,0 +1,2 @@
+Download repo from https://github.com/yunjey/stargan
+Download repo from https://github.com/NVlabs/eg3d
