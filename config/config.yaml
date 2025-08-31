@@ -1,0 +1,37 @@
+device: "cuda"        # or cuda
+frame_skip: 5
+max_lag_sec: 5
+confidence_thresh: 0.5
+l2_thresh: 1.0
+gamma_dark: 1.8
+brightness_thresh: 40
+num_planes: 16
+num_tables: 5
+margin: 35.0
+scale: 30.0
+n_pca: 3
+n_proto: 3
+
+# Dynamic threshold parameters
+d_thresh_l: 0.5
+d_thresh_m: 0.42
+d_thresh_s: 0.38
+d_thresh_xs: 0.35
+
+database:
+  host: localhost
+  user: root
+  password: Student.123
+  db_name: faces_db_avengers
+
+paths:
+  known_db: "data/grand bupadist hotel"
+  video: "input/THE GRAND BOUDABEST HOTEL The Police Are Here .mp4"
+  yolov8_model: "models/yolov8n-face.pt"
+  beautygan_path: "models/models_beautygan/"
+  discofacegan_path: "models/models_discofacegan"
+  eg3d_model: "models/ffhqrebalanced512-128.pkl"
+  stargan_path: "StarGAN/stargan_celeba_128/models/200000-G.ckpt"
+  img_path: "input/ref.jpeg"
+  out_vid: "outputs/out_vid_2.mp4"
+  out_img: "outputs/out.jpeg"
