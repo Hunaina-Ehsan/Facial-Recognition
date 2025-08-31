@@ -32,7 +32,7 @@ These GANs simulate variations in **pose, lighting, age, and expression**.
 - Functions: `get_embedding`, `face_to_embedding`.  
 - `build_known_embeddings()` pipeline:  
   - Each person → **1 reference image (`1.*`)**.  
-  - Generate 5 variants → original, gamma-corrected, flipped, yaw-left, yaw-right.  
+  - Generate multiple variants → original, gamma-corrected, flipped, yaw-left, yaw-right and mentioned gan based augmentations.  
   - Average embeddings → **compact identity vector**.  
 
 ---
