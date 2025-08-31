@@ -9,10 +9,10 @@ This project implements a **complete real-time and video-based facial recognitio
 - **YOLOv8 (`yolov8n-face.pt`)** → Face detection.  
 - **FaceNet (InceptionResnetV1, pretrained on VGGFace2)** → 512-D face embeddings.  
 - **GAN-based Augmentations** → Generate realistic variants for robustness:  
-  - StarGAN  
-  - EG3D  
-  - DiscoFaceGAN  
-  - BeautyGAN  
+  - StarGAN  (Credits to: https://github.com/yunjey/stargan)
+  - EG3D  (Credits to: https://github.com/NVlabs/eg3d)
+  - DiscoFaceGAN  (Credits to: https://github.com/microsoft/DiscoFaceGAN)
+  - BeautyGAN  (Credits to: https://jonhyuk0922.tistory.com/103)
 
 These GANs simulate variations in **pose, lighting, age, and expression**.  
 
