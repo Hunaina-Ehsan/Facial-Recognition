@@ -37,12 +37,15 @@ These GANs simulate variations in **pose, lighting, age, and expression**.
 
 ---
 
-## 🔹 Context Maps (Replacing Raw Embeddings)  
-Each identity stored as **two vectors**:  
-- **Mean Map** → average embedding.  
-- **Attention Map** → weighted average (closer vectors weighted higher).  
+Each identity is stored with multiple context components:
 
-This reduces redundancy and improves stability.  
+- **Mean Map (`mean`)** → average embedding (float32).  
+- **Attention Map (`attn`)** → weighted average, giving higher weight to closer vectors (float32).  
+- **PCA Vectors (`pca_vecs`)** → reduced-dimension basis vectors for compact representation.  
+- **Covariance Matrix (`covariance`)** → captures variation of embeddings for that identity.  
+- **Prototypes (`prototypes`)** → representative embeddings for fast matching and robustness.  
+
+This structure reduces redundancy, improves stability, and accelerates comparisons.  
 
 ---
 
