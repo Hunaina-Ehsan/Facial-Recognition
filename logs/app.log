@@ -1,0 +1,37 @@
+2025-08-28 15:38:57,179 | INFO | Using device: cpu
+2025-08-28 15:41:43,312 | INFO | Using device: cpu
+2025-08-28 15:52:21,920 | INFO | Using device: cpu
+2025-08-28 15:58:31,403 | INFO | ----------PROCESSING TIME----------
+2025-08-28 15:58:31,424 | INFO | detection    mean=122.15 ms   std=49.76 ms   n=1175
+2025-08-28 15:58:31,437 | INFO | frame_total  mean=56.03 ms   std=133.47 ms   n=5873
+2025-08-28 15:59:50,696 | INFO | Using device: cpu
+2025-08-28 16:08:29,098 | INFO | ----------PROCESSING TIME----------
+2025-08-28 16:08:29,136 | INFO | detection    mean=165.70 ms   std=39.60 ms   n=1175
+2025-08-28 16:08:29,149 | INFO | frame_total  mean=80.37 ms   std=154.65 ms   n=5873
+2025-08-28 16:09:31,644 | INFO | Using device: cpu
+2025-08-28 16:10:18,133 | INFO | Using device: cpu
+2025-08-28 16:15:10,125 | INFO | ----------PROCESSING TIME----------
+2025-08-28 16:15:10,141 | INFO | detection    mean=174.77 ms   std=35.93 ms   n=567
+2025-08-28 16:15:10,161 | INFO | frame_total  mean=94.70 ms   std=204.76 ms   n=2835
+2025-08-28 22:52:37,794 | INFO | Using device: cpu
+2025-08-28 22:54:20,309 | INFO | Using device: cpu
+2025-08-28 22:55:01,469 | INFO | Using device: cpu
+2025-08-28 22:56:07,236 | INFO | Using device: cpu
+2025-08-28 22:58:39,415 | INFO | ----------PROCESSING TIME----------
+2025-08-28 22:58:39,418 | INFO | detection    mean=105.57 ms   std=20.76 ms   n=567
+2025-08-28 22:58:39,423 | INFO | frame_total  mean=46.04 ms   std=89.41 ms   n=2835
+2025-08-29 11:47:30,396 | INFO | Using device: cpu
+2025-08-29 11:53:12,096 | INFO | ----------PROCESSING TIME----------
+2025-08-29 11:53:12,106 | INFO | detection    mean=229.67 ms   std=155.37 ms   n=567
+2025-08-29 11:53:12,114 | INFO | frame_total  mean=110.66 ms   std=279.75 ms   n=2835
+2025-08-29 14:22:01,912 | INFO | Using device: cpu
+2025-08-29 14:25:29,468 | INFO | ----------PROCESSING TIME----------
+2025-08-29 14:25:29,468 | INFO | detection    mean=147.87 ms   std=115.94 ms   n=567
+2025-08-29 14:25:29,468 | INFO | frame_total  mean=63.71 ms   std=167.35 ms   n=2835
+2025-08-31 19:50:53,438 | INFO | Using device: cpu
+2025-08-31 21:07:10,682 | INFO | Using device: cpu
+2025-08-31 21:35:08,164 | INFO | Using device: cpu
+2025-09-01 01:09:50,730 | INFO | Using device: cpu
+2025-09-01 02:43:40,887 | INFO | [1] Robert Downey Jr (9.43)
+2025-09-01 02:43:40,888 | INFO | [2] Unknown (-1.00)
+2025-09-01 02:43:40,892 | INFO | [\u2714] Result saved as outputs/out.jpeg
