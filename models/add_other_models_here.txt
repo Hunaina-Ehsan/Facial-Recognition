@@ -1,3 +1,3 @@
-1. Go to the provided Google Drive link and download all files of BeautyGAN. Place them in folder names beautygan here.  
-2. Go to the GitHub repository link → navigate to `eg3d/eg3d/models/` → download the model `.pkl` files.  
+1. Go to the provided Google Drive link https://jonhyuk0922.tistory.com/103 and download all files of BeautyGAN. Place them in folder names beautygan here.  
+2. Go to the GitHub repository link https://github.com/NVlabs/eg3d → navigate to `eg3d/eg3d/models/` → download the model `.pkl` files.  
 3. Copy all downloaded files into this project directory.  
