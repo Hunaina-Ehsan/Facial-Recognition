@@ -129,11 +129,4 @@ Robust against **lighting, pose, and expression changes**, modular for future up
 
 ---
 
-## 🚀 Next Steps  
-- Single-image enrollment.  
-- Smarter GAN augmentation strategies.  
-- Adaptive thresholds for dynamic environments.  
-
----
-
 By combining **state-of-the-art deep learning** with **practical engineering optimizations**, this project achieves **scalable, real-time face recognition** ready for deployment.  
